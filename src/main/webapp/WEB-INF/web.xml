@@ -1,0 +1,27 @@
+
+
+        <web-app>
+
+        <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>com.bigcompany.managerEmployee.servlet.HomeServlet</servlet-class>
+        </servlet>
+        
+        <servlet>
+        <servlet-name>Employee</servlet-name>
+        <servlet-class>com.bigcompany.managerEmployee.servlet.EmployeeServlet</servlet-class>
+        </servlet>
+        
+        <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/</url-pattern>
+        </servlet-mapping>
+        
+        <servlet-mapping>
+        <servlet-name>Employee</servlet-name>
+        <url-pattern>/Employees</url-pattern>
+        </servlet-mapping>
+        
+
+        </web-app>
+
